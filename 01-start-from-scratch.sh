@@ -91,3 +91,6 @@ nano /etc/postgresql/14/main/pg_hba.conf
 
 ufw allow 5432
 systemctl start postgresql
+
+swapoff /swapfile
+rm -rf /swapfile
